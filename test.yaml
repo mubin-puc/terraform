@@ -1,0 +1,12 @@
+---
+metadata:
+  name: "Ensure all modules are using porper project name"
+  id: "CKV2_CUSTOM_1"
+  category: "SUPPLY_CHAIN"
+definition:
+  cond_type: attribute
+  resource_types:
+    - module
+  attribute: "project_name"
+  operator: "equals"
+  value: "vz-it-np-jabv-dev-aidplt-0"
